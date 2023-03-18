@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LinkedIn Post Example</title>
+    <style>
+        /* styles for the post architecture */
+        .post-container {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        .author-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .author-image {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .author-name {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .post-date {
+            color: #666;
+            font-size: 12px;
+            margin-right: 10px;
+        }
+
+        .post-text {
+            margin-bottom: 10px;
+        }
+
+        .post-image {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .post-reactions {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .reaction {
+            display: flex;
+            align-items: center;
+            margin-right: 10px;
+        }
+
+        .reaction-icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
+
+        .reaction-count {
+            margin-right: 5px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="post"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>

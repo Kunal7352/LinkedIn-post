@@ -1,0 +1,29 @@
+
+.pfp-img
+{
+    width: 8%;
+    border-radius: 100%;
+}
+
+.create-post
+{
+    text-align: center;
+}
+
+
+.btn
+{
+    margin: 2rem;
+    width: 30%;
+    padding: 1% 0;
+    border-radius: 4%;
+    border: 1px solid ;
+    background-color: white;
+    font-size: 130%;
+}
+
+.btn:hover
+{
+    background-color: blue;
+    color: white;
+}
